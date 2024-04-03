@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 171.33546, g: 171.2361, b: 183.54335, a: 1}
+  m_IndirectSpecularColor: {r: 174.17934, g: 174.32692, b: 187.2444, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2272,8 +2272,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.13712458, y: 0.7872069, z: -0.1891555, w: 0.57072103}
-  m_LocalPosition: {x: 59.020767, y: 100.29816, z: -122.8753}
+  m_LocalRotation: {x: 0.19966717, y: 0.5344722, z: -0.13164443, w: 0.81064314}
+  m_LocalPosition: {x: 79.145546, y: 71.80782, z: -62.312305}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2571,6 +2571,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902001740}
   m_Mesh: {fileID: 2714331749980040891, guid: 3c71d1f3bd315d94cb44c576218cda53, type: 3}
+--- !u!1 &1984464466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1984464467}
+  m_Layer: 0
+  m_Name: luces_farolas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1984464467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984464466}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.30707604, y: 0.5570557, z: 0.22837731, w: 0.7370462}
+  m_LocalPosition: {x: -97.20964, y: 3, z: 21.774483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450652146922474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
@@ -3596,6 +3627,7 @@ Transform:
   - {fileID: 1665957078}
   - {fileID: 519508127}
   - {fileID: 1313434453}
+  - {fileID: 1984464467}
   - {fileID: 33118545}
   - {fileID: 1564115651}
   - {fileID: 1298223285}
