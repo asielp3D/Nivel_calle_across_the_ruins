@@ -112,7 +112,8 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 6018823727867237550, guid: 7b072b2c308773c47b29364328b8548b, type: 3}
+    m_Motion: {fileID: 6018823727867237550, guid: 7b072b2c308773c47b29364328b8548b,
+      type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -120,7 +121,8 @@ BlendTree:
     m_DirectBlendParameter: VelX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: -2827238649916056085, guid: bcbf5842c523d424480dc0c5475c6631, type: 3}
+    m_Motion: {fileID: -2827238649916056085, guid: bcbf5842c523d424480dc0c5475c6631,
+      type: 3}
     m_Threshold: 0.33333334
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -128,7 +130,8 @@ BlendTree:
     m_DirectBlendParameter: VelX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 6018823727867237550, guid: 63cffd1c12f10d14e87e4563f9ecc1d7, type: 3}
+    m_Motion: {fileID: 6018823727867237550, guid: 63cffd1c12f10d14e87e4563f9ecc1d7,
+      type: 3}
     m_Threshold: 0.6666667
     m_Position: {x: 0, y: 0.2}
     m_TimeScale: 1
@@ -151,7 +154,8 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 6018823727867237550, guid: 168791290645ed244915e03c06b157a4, type: 3}
+    m_Motion: {fileID: 6018823727867237550, guid: 168791290645ed244915e03c06b157a4,
+      type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -159,7 +163,8 @@ BlendTree:
     m_DirectBlendParameter: VelX
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 6018823727867237550, guid: d67b12cd843258c42ab84ee4755412dd, type: 3}
+    m_Motion: {fileID: 6018823727867237550, guid: d67b12cd843258c42ab84ee4755412dd,
+      type: 3}
     m_Threshold: 0.6666667
     m_Position: {x: 0, y: 1}
     m_TimeScale: 1
@@ -240,25 +245,25 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: VelZ
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsJumping
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsCrouching
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -345,7 +350,8 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 6018823727867237550, guid: fa2fd9b8997eccd49a80540cef7869c5, type: 3}
+  m_Motion: {fileID: 6018823727867237550, guid: 9cac5988f2e076a499ebcb3a8f71d01d,
+    type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
